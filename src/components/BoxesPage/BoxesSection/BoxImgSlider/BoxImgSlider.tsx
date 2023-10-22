@@ -7,7 +7,7 @@ import styles from './BoxImgSlider.module.scss';
 const BoxImgSlider = ({ img }: { img: string[] }) => {
   return (
     <div className={styles.img_container}>
-      <ReusableSlider dotsStyles={styles.dots} dots>
+      <ReusableSlider dotsStyles={styles.dots} dots infinite autoplay>
         {img.map((imageSrc, index) => (
           <div key={index} className={styles.img_inner_container}>
             <Image
