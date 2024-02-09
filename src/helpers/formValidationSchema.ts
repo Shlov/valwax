@@ -3,7 +3,7 @@ import { object, string } from 'yup';
 
 const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 const phoneRegex = /^(\d{2}[-\s]?)(\d{3}[-\s]?)(\d{2}[-\s]?){2}$/;
-const nameRegex = /^[A-Za-z-]+$/; // Only letters and hyphens allowed
+const nameRegex = /^[A-Za-z-']+$/; // Only letters, hyphens and apostrophe allowed
 
 const validateObjectFields = (req: string) => {
   return object({

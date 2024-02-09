@@ -369,9 +369,9 @@
         "buttonText": "Place an order",
         "errorMessages": {
           "firstNameReq": "Enter your first name",
-          "firstNameInvalid": "First name must contain only letters",
+          "firstNameInvalid": "First name can contain only letters, apostrophe and hyphen",
           "lastNameReq": "Enter your last name",
-          "lastNameInvalid": "Last name must contain only letters",
+          "lastNameInvalid": "Last name can contain only letters, apostrophe and hyphen",
           "emailReq": "Enter your email",
           "validEmail": "Enter a valid email",
           "phoneReq": "Phone number is a required field",
