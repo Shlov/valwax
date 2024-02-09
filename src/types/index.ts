@@ -155,7 +155,9 @@ export interface ProductDescription {
 
 export interface CheckoutFormValidation {
   firstNameReq: string;
+  firstNameInvalid: string;
   lastNameReq: string;
+  lastNameInvalid: string;
   emailReq: string;
   validEmail: string;
   phoneReq: string;
@@ -368,10 +370,9 @@ export interface UseScrollbarProps {
 
 export type ServerLocale = 'UA' | 'EN';
 
-
 export interface buildOrderDataI {
-  dataForm: CheckoutFormValues,
-  cartProducts: ICartProducts,
-  cartTotalPrice: number,
-  dictParam: configuratorSectionI
+  dataForm: CheckoutFormValues;
+  cartProducts: ICartProducts;
+  cartTotalPrice: number;
+  dictParam: configuratorSectionI;
 }

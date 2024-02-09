@@ -363,7 +363,9 @@
         "buttonText": "Оформити замовлення",
         "errorMessages": {
           "firstNameReq": "Введіть ім'я",
+          "firstNameInvalid": "Ім'я може містити лише літери, апостроф та дефіс",
           "lastNameReq": "Введіть прізвище",
+          "lastNameInvalid": "Прізвище може містити лише літери, апостроф та дефіс",
           "emailReq": "Введіть email",
           "validEmail": "Введіть дійсний email",
           "phoneReq": "Телефон є обов'язковим полем",
